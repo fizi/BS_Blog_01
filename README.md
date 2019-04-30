@@ -1,1 +1,1 @@
-# BS_Blog_01 theme for e107 Boostrap CMS version 2
+# BS Blog 01 theme for e107 Boostrap CMS version 2

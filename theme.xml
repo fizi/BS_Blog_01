@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Theme name="BS Blog 01" version="1.0" date="2017-07-29" compatibility="2.0" >
+	<author name="fizi" url="http://fizithemes.hu" email="fizi@wsb.hu"/>
+	<summary>BS Blog 01 Bootstrap3 theme by fizi</summary>
+	<description>BS Blog 01 bootstrap 3 theme with Masonry grid layout.</description>
+  <category>blog</category>
+  <copyright>Theme by: FIZI THEMES</copyright>
+  <plugins>
+    <plugin name='social' url='core' />
+	</plugins>
+	<keywords>
+		<word>bootstrap</word>
+		<word>blog</word>
+    <word>responsive</word>
+	</keywords>
+	<screenshots>
+		<image>preview.jpg</image>
+	</screenshots>
+	<stylesheets>
+		<css file="style.css" name="Default" />
+	</stylesheets>
+	<layouts> 
+    <layout name='homepage' title='Homepage (Blog Home)' default='false'>
+			<custompages>FRONTPAGE</custompages>	
+		</layout>
+    <layout name='blog_full_page' title='Blog Full Page (no Menubar)' default='false'>
+      <custompages>forum news.php news/?</custompages>    
+		</layout> 
+    <layout name='blog_extend_news' title='Blog Extend News with Right Menubar' default='false'>
+      <custompages>news/ news.php?</custompages>
+    </layout>
+    <layout name='blog_with_sidebar' title='Blog with Right Menubar' default='true' />   
+  </layouts>
+</e107Theme>
